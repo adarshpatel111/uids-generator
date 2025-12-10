@@ -1,0 +1,29 @@
+{
+  "name": "uid-generator",
+  "version": "1.0.0",
+  "description": "Generates unique IDs based on alphabets, numbers, or alphanumeric inputs",
+  "main": "index.js",
+  "type": "commonjs",
+  "keywords": [
+    "unique",
+    "id",
+    "generator",
+    "alphabet",
+    "numeric",
+    "alphanumeric",
+    "uid"
+  ],
+  "author": "Adarsh Patel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-username>/uid-generator.git"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
