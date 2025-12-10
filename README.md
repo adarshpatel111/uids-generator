@@ -1,4 +1,4 @@
-# uid-generator
+# uids-generator
 
 A simple unique ID generator based on user input type:
 
@@ -9,5 +9,5 @@ A simple unique ID generator based on user input type:
 ## Installation
 
 ```bash
-npm install uid-generator
+npm install uids-generator
 ```

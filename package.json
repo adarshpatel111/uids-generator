@@ -1,5 +1,5 @@
 {
-  "name": "uid-generator",
+  "name": "uids-generator",
   "version": "1.0.1",
   "description": "Generates unique IDs based on alphabets, numbers, or alphanumeric inputs",
   "main": "index.js",
@@ -17,7 +17,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adarshpatel111/uid-generator.git"
+    "url": "git+https://github.com/adarshpatel111/uids-generator.git"
   },
   "files": [
     "index.js",
