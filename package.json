@@ -1,6 +1,6 @@
 {
   "name": "uids-generator",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Generates unique IDs based on alphabets, numbers, or alphanumeric inputs",
   "main": "index.js",
   "type": "commonjs",
@@ -11,10 +11,13 @@
     "alphabet",
     "numeric",
     "alphanumeric",
-    "uid"
+    "uid",
+    "uuid",
+    "random",
+    "uids-generator"
   ],
   "author": "Adarsh Patel",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adarshpatel111/uids-generator.git"

@@ -44,3 +44,4 @@ function generateUniqueId(type, length = 12) {
 }
 
 module.exports = { generateUniqueId };
+module.exports.default = { generateUniqueId };
