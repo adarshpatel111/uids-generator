@@ -1,6 +1,6 @@
 {
   "name": "uids-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates unique IDs based on alphabets, numbers, or alphanumeric inputs",
   "main": "index.js",
   "type": "commonjs",
