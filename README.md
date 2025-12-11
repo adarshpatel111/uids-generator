@@ -13,27 +13,22 @@ It works seamlessly in **Node.js**, **Express**, **React**, **Vue**, or browser 
 ## Installation
 
 ```bash
-npm install uids-generator
+npm install uids-generator --save
+# or
+yarn add uids-generator
 ```
-
-# Node.js / Express (CommonJS)
 
 ```bash
+# Node.js / Express (CommonJS)
 const { generateUniqueId } = require("uids-generator");
-```
 
 # Generate alphabet ID
-
-```bash
 const alphabetId = generateUniqueId("alphabet", 10);
 console.log(alphabetId);
-```
 
 # Example output: { id: 'AbCdEfGhIj', length: 10, type: 'alphabet' }
 
 # Express example
-
-```bash
 const express = require("express");
 const app = express();
 
@@ -45,18 +40,11 @@ res.json(uid);
 app.listen(3000, () => console.log("Server running on port 3000"));
 
 generateUniqueId("alphabet", 10);
-```
-
 # { id: 'AbCdEfGhIj', length: 10, type: 'alphabet' }
 
-```bash
 generateUniqueId("number", 8);
-```
-
 # { id: '85017429', length: 8, type: 'number' }
 
-```bash
 generateUniqueId("alphanumeric", 16);
-
 # { id: 'g8H1kP92Ms7Qx1Za', length: 16, type: 'alphanumeric' }
 ```
