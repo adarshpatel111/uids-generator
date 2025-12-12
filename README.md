@@ -37,7 +37,7 @@ const uid = generateUniqueId("alphanumeric", 12);
 res.json(uid);
 });
 
-app.listen(3000, () => console.log("Server running on port 3000"));
+app.listen(5000, () => console.log("Server running on port 5000"));
 
 generateUniqueId("alphabet", 10);
 # { id: 'AbCdEfGhIj', length: 10, type: 'alphabet' }
