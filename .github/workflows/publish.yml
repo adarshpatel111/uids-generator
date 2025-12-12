@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    # optionally trigger only on tags
-    # tags:
-    #   - 'v*.*.*'
 
 jobs:
   build-and-publish:
@@ -25,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build (if needed)
-        run: echo "No build step needed for your package"
+        run: echo "No build step needed"
 
       - name: Publish to npm
         run: npm publish --access public
